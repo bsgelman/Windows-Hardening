@@ -59,10 +59,10 @@ A supporting script that validates and modifies users and administrators based o
 
 **WARNING**
 
-- Test the scripts out on a virtual machine BEFORE running them on your personal device since they harden your system to an extreme degree and it may become unusable for your needs
-- Make sure you read the *Harden\_Windows.ps1* script and are aware of the password that is applied to all users so that you can log back in
-- Make sure you know what each feature does before running
-- *Purify\_Users.ps1* is NOT intended for use outside of the competition, since it reads from a README HTML document provided
+- Test the scripts out on a virtual machine BEFORE running them on your personal device since they harden your system to an extreme degree and it may become unusable for your needs.
+- Make sure you read the `Harden_Windows.ps1` script and are aware of the password that is applied to all users so that you can log back in.
+- Make sure you know what each feature does before running.
+- `Purify_Users.ps1` is NOT intended for use outside of the competition, since it reads from a README HTML document provided.
 
 ### Prerequisites
 
@@ -91,45 +91,26 @@ A supporting script that validates and modifies users and administrators based o
 
 The `Harden_Windows.ps1` script provides modular options for customization:
 
-1\. Harden Networking
-
-2\. Harden Windows Defender
-
-3\. Disable Remote Desktop
-
-4\. Configure Registry
-
-5\. Configure Services
-
-6\. Disabling SMB1
-
-7\. Audit Policies
-
-8\. Bulk Password Change
-
-9\. Set Up Backup
-
-10\. Update Powershell
-
-11\. Download SysInternals
-
-12\. Download AVG antivirus
-
-13\. Download Malwarebytes Anti-Malware
-
-14\. Flush DNS Cache
-
-15\. Configure Windows Features
-
-16\. Configure Internet Explorer
-
-17\. Disable NetBIOS
-
-18\. Delete Media Files
-
-19\. Harden Google Chrome
-
-20\. Run System File Checker
+1. **Harden Networking**
+2. **Harden Windows Defender**
+3. **Disable Remote Desktop**
+4. **Configure Registry**
+5. **Configure Services**
+6. **Disable SMB1**
+7. **Audit Policies**
+8. **Bulk Password Change**
+9. **Set Up Backup**
+10. **Update PowerShell**
+11. **Download SysInternals**
+12. **Download AVG Antivirus**
+13. **Download Malwarebytes Anti-Malware**
+14. **Flush DNS Cache**
+15. **Configure Windows Features**
+16. **Configure Internet Explorer**
+17. **Disable NetBIOS**
+18. **Delete Media Files**
+19. **Harden Google Chrome**
+20. **Run System File Checker**
 
 ---
 
