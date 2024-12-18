@@ -79,7 +79,7 @@ A supporting script that validates and modifies users and administrators based o
    ```powershell
    .\Harden_Windows.ps1
    ```
-5. Follow the prompts to select hardening actions.
+5. Follow the prompts to select hardening actions based off the number.
 6. If needed, execute the secondary script:
    ```powershell
    .\Purify_Users.ps1
@@ -87,9 +87,9 @@ A supporting script that validates and modifies users and administrators based o
 
 ---
 
-## Modular Hardening Options
+## Harden_Windows.ps1 Options
 
-The `Harden_Windows.ps1` script provides modular options for customization:
+The `Harden_Windows.ps1` script provides options for customization:
 
 1. **Harden Networking**
 2. **Harden Windows Defender**
